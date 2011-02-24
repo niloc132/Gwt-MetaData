@@ -3,8 +3,8 @@
 <module>
 	<inherits name="com.google.gwt.user.User" />
 	
-	<generate-with class="org.generateui.gwtMetaData.rebind.XmlValidatorGenerator">
-		<when-type-assignable class="org.generateui.gwtMetaData.client.MetaDataReader"/>
+	<generate-with class="org.generateui.gwtMetaData.rebind.MetadataReaderGenerator">
+		<when-type-assignable class="org.generateui.gwtMetaData.client.MetadataReader"/>
 	</generate-with>
 	
 	<source path="client" />
